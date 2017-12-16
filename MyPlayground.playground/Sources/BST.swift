@@ -243,7 +243,7 @@ public class BST <T: Comparable>  {
     }
     
     // Returns the number of nodes in the BST
-    func getSize() -> Int {
+    public func getSize() -> Int {
         return count
     }
     
