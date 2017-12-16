@@ -4,17 +4,17 @@ This is a generic Binary Search Tree class made in Swift. This BST class uses an
 
 # Methods:
 
-public func getSize() -> Int
+public func getSize() -> Int \n
 Returns the number of nodes in the BST
 
 
-public func insert(value: T) -> Bool
+public func insert(value: T) -> Bool  \r
 Insert a value into the BST. This BST does not insert duplicate values.
 Returns true if value was inserted into the BST, false otherwise
 Runtime: O(h) where h is the height of the tree
 
 
-public func remove(value: T) -> Bool
+public func remove(value: T) -> Bool  \r\n
 Remove a value from the BST.
 Returns true if value was removed, false otherwise (if value wasn't in BST)
 Runtime: O(h) where h is the height of the tree
